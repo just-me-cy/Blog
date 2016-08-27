@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 
+title: title
 subtitle:
-description:
-author: 
-language:
+description: desc
+author: chenyao
+language: zh-cn
 timezone:
 
 # URL
@@ -68,4 +68,6 @@ theme: apollo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/just-me-cy/Blog.git
+  branch: gh-pages
