@@ -6,11 +6,9 @@
     "version": "3.2.2"
   },
    "scripts": {
-    "push": "git add -A && git commit -m synchronize && git push",
-    "pull": "git pull",
     "server": "sudo hexo generate && sudo hexo server -p 4001",
     "start": "npm run server",
-    "deploy": "sudo hexo d -g && npm run push"
+    "deploy": "sudo hexo d -g"
   },
   "dependencies": {
     "hexo": "^3.2.0",
